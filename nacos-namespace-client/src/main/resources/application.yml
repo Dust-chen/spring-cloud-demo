@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-client # Spring 应用名
+  profiles:
+    active: uat
+server:
+  port: 28080 # 服务器端口。默认为 8080
