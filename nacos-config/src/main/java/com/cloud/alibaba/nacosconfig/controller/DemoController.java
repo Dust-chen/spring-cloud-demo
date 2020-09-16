@@ -1,4 +1,4 @@
-package com.cloud.alibaba.nacosconfig.Controller;
+package com.cloud.alibaba.nacosconfig.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.cloud.alibaba.nacosconfig.config.OssProperties;
