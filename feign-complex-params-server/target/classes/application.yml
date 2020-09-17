@@ -1,6 +1,6 @@
 spring:
   application:
-    name: feign-server # Spring 应用名
+    name: feign-complex-params-server # Spring 应用名
   cloud:
     nacos:
       # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类
