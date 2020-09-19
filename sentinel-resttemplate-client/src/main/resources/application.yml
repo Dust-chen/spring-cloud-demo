@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: sentienl-resttemplate-client
+  cloud:
+    sentinel:
+      enabled: true
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:7070
+      filter:
+        url-patterns: /**
+
+server:
+  port: 8081
+
+resttemplate:
+  sentinel:
+    enabled: true
+
+
